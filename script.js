@@ -11,7 +11,7 @@ function addTask() {
         li.innerHTML = inputBox.value;
         listContainer.appendChild(li);
         let span = document.createElement('span'); // Creating span element
-        span.innerHTML = "\u00d7";
+        span.innerHTML = "\u00d7"; // Added that cross icon
         li.appendChild(span);
     }
     inputBox.value = ""; // Cleaning Input field after adding task
